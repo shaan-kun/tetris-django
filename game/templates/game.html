@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+{% load static %}
+<html>
+<head>
+    <link rel="stylesheet" href="{% static 'css/tetris.css' %}" />
+	<title>Тетрис</title
+<head>
+<body>
+	<canvas width="320" height="640" id="game"></canvas>
+	<div class="menu">
+		<div class="item">Счёт: <span class="data" id="score">300</span></div>
+	</div>
+	<script src="{% static 'js/tetris.js' %}"></script>
+</body>
+</html>

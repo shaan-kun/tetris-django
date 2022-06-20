@@ -1,0 +1,29 @@
+body {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.main {
+    margin: 20px;
+    width: 600px;
+    min-height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.main a {
+    margin: 10px;
+    font-size: 32px;
+}
+
+.player {
+    margin: 50px;
+    width: 200px;
+    min-height: 200px;
+}
